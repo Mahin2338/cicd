@@ -6,8 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: we are testing this workflow
-        run: echo Hello everyone!
+      - name: Say hello
+        run: echo "Hello everyone!"
+
